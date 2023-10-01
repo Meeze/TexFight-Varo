@@ -1,0 +1,31 @@
+TODOS:
+Commands:
+(actually alle klassen) ausschreiben und englisch benennen
+alle commands ins command package
+longest command -> shortest alias 
+Organzie in subfolders
+add aikar cmd framework
+no more static shit : use di
+Organzie in subfolders
+refactor codestyle of each
+
+Listener:
+Create one listener class for each event and delegate into methods for specific features
+- remove all events in command (and anywhere else)
+- refactor into submethods
+
+ItemStack creation/ item builder:
+- remove 10 billion utility functions and create universal itembuilder class which can do all
+
+
+Database:
+- add hibernate/jpa i guess
+
+utils:
+- refactor (wherever possible) into basecommand, baselistener and basecontroller as well as their subclasses
+- data class into controllers and services and label/text/language files
+
+General code style:
+- dont spame public static - refactor
+- rename denglish and german naming
+- defensive ifs 
